@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import java.util.Scanner;
 
 class PrimeNumberDemo
@@ -38,4 +39,15 @@ class PrimeNumberDemo
          num++;
       }         
    }
+=======
+import java.time.LocalDateTime;
+
+public class CurrentDateTime {
+
+    public static void main(String[] args) {
+        LocalDateTime current = LocalDateTime.now();
+
+        System.out.println("Current Date and Time is: " + current);
+    }
+>>>>>>> a58a17d11ed8b75bf14c24b96be44348fd5968ee
 }
